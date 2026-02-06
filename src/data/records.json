@@ -1,0 +1,134 @@
+{
+  "medicalHistory": [
+    {
+      "id": "mh1",
+      "patientId": "p1",
+      "date": "2025-01-15",
+      "type": "Checkup",
+      "diagnosis": "Routine physical examination",
+      "doctor": "Dr. Sarah Johnson",
+      "facility": "City General Hospital",
+      "notes": "Blood pressure slightly elevated. Recommended lifestyle changes.",
+      "followUp": "2025-04-15"
+    },
+    {
+      "id": "mh2",
+      "patientId": "p1",
+      "date": "2024-11-20",
+      "type": "Specialist Visit",
+      "diagnosis": "Diabetes management consultation",
+      "doctor": "Dr. Robert Williams",
+      "facility": "Diabetes Care Center",
+      "notes": "HbA1c levels improved. Continue current medication.",
+      "followUp": "2025-02-20"
+    },
+    {
+      "id": "mh3",
+      "patientId": "p1",
+      "date": "2024-08-10",
+      "type": "Emergency",
+      "diagnosis": "Acute chest pain - ruled out cardiac event",
+      "doctor": "Dr. James Miller",
+      "facility": "City General Hospital ER",
+      "notes": "ECG and troponin normal. Diagnosed as musculoskeletal pain.",
+      "followUp": null
+    },
+    {
+      "id": "mh4",
+      "patientId": "p2",
+      "date": "2025-01-10",
+      "type": "Checkup",
+      "diagnosis": "Annual wellness exam",
+      "doctor": "Dr. Michael Chen",
+      "facility": "City General Hospital",
+      "notes": "All vitals normal. Asthma well-controlled.",
+      "followUp": "2026-01-10"
+    },
+    {
+      "id": "mh5",
+      "patientId": "p3",
+      "date": "2025-01-05",
+      "type": "Vaccination",
+      "diagnosis": "Annual flu vaccination",
+      "doctor": "Dr. Lisa Park",
+      "facility": "Family Health Clinic",
+      "notes": "No adverse reactions observed.",
+      "followUp": null
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx1",
+      "patientId": "p1",
+      "medication": "Metformin 500mg",
+      "dosage": "Twice daily with meals",
+      "prescribedDate": "2024-11-20",
+      "expiryDate": "2025-05-20",
+      "doctor": "Dr. Robert Williams",
+      "refillsRemaining": 3,
+      "status": "active"
+    },
+    {
+      "id": "rx2",
+      "patientId": "p1",
+      "medication": "Lisinopril 10mg",
+      "dosage": "Once daily in the morning",
+      "prescribedDate": "2025-01-15",
+      "expiryDate": "2025-07-15",
+      "doctor": "Dr. Sarah Johnson",
+      "refillsRemaining": 5,
+      "status": "active"
+    },
+    {
+      "id": "rx3",
+      "patientId": "p1",
+      "medication": "Aspirin 81mg",
+      "dosage": "Once daily",
+      "prescribedDate": "2024-08-10",
+      "expiryDate": "2025-08-10",
+      "doctor": "Dr. James Miller",
+      "refillsRemaining": 10,
+      "status": "active"
+    },
+    {
+      "id": "rx4",
+      "patientId": "p2",
+      "medication": "Albuterol Inhaler",
+      "dosage": "As needed for breathing difficulty",
+      "prescribedDate": "2025-01-10",
+      "expiryDate": "2026-01-10",
+      "doctor": "Dr. Michael Chen",
+      "refillsRemaining": 2,
+      "status": "active"
+    },
+    {
+      "id": "rx5",
+      "patientId": "p3",
+      "medication": "Epinephrine Auto-Injector",
+      "dosage": "Emergency use only for allergic reactions",
+      "prescribedDate": "2024-09-01",
+      "expiryDate": "2025-09-01",
+      "doctor": "Dr. Lisa Park",
+      "refillsRemaining": 1,
+      "status": "active"
+    }
+  ],
+  "vitals": {
+    "p1": [
+      { "date": "2025-01-15", "bp": "138/88", "heartRate": 78, "weight": 185, "glucose": 126 },
+      { "date": "2024-12-15", "bp": "142/90", "heartRate": 82, "weight": 188, "glucose": 134 },
+      { "date": "2024-11-20", "bp": "145/92", "heartRate": 80, "weight": 190, "glucose": 142 },
+      { "date": "2024-10-15", "bp": "140/88", "heartRate": 76, "weight": 189, "glucose": 138 },
+      { "date": "2024-09-15", "bp": "144/90", "heartRate": 79, "weight": 191, "glucose": 145 },
+      { "date": "2024-08-15", "bp": "148/94", "heartRate": 84, "weight": 193, "glucose": 152 }
+    ],
+    "p2": [
+      { "date": "2025-01-10", "bp": "118/76", "heartRate": 68, "weight": 145, "glucose": 92 },
+      { "date": "2024-07-10", "bp": "120/78", "heartRate": 70, "weight": 146, "glucose": 94 }
+    ],
+    "p3": [
+      { "date": "2025-01-05", "bp": "110/70", "heartRate": 72, "weight": 120, "glucose": 88 },
+      { "date": "2024-09-01", "bp": "108/68", "heartRate": 74, "weight": 118, "glucose": 86 }
+    ]
+  }
+}

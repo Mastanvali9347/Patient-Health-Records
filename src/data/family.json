@@ -1,0 +1,22 @@
+{
+  "familyId": "fam-001",
+  "familyName": "Smith Family",
+  "primaryAccountHolder": "p1",
+  "members": [
+    {
+      "patientId": "p1",
+      "relationship": "Self",
+      "accessLevel": "full"
+    },
+    {
+      "patientId": "p2",
+      "relationship": "Spouse",
+      "accessLevel": "full"
+    },
+    {
+      "patientId": "p3",
+      "relationship": "Daughter",
+      "accessLevel": "full"
+    }
+  ]
+}

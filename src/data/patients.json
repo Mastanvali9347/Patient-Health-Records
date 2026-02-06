@@ -1,0 +1,58 @@
+{
+  "patients": [
+    {
+      "id": "p1",
+      "name": "John Smith",
+      "age": 45,
+      "dateOfBirth": "1980-03-15",
+      "gender": "Male",
+      "bloodType": "A+",
+      "phone": "+1 (555) 123-4567",
+      "email": "john.smith@email.com",
+      "address": "123 Main Street, New York, NY 10001",
+      "emergencyContact": "Mary Smith - +1 (555) 987-6543",
+      "insuranceProvider": "BlueCross BlueShield",
+      "insuranceId": "BCB-123456789",
+      "primaryPhysician": "Dr. Sarah Johnson",
+      "allergies": ["Penicillin", "Shellfish"],
+      "chronicConditions": ["Hypertension", "Type 2 Diabetes"],
+      "avatar": "JS"
+    },
+    {
+      "id": "p2",
+      "name": "Mary Smith",
+      "age": 42,
+      "dateOfBirth": "1983-07-22",
+      "gender": "Female",
+      "bloodType": "O+",
+      "phone": "+1 (555) 987-6543",
+      "email": "mary.smith@email.com",
+      "address": "123 Main Street, New York, NY 10001",
+      "emergencyContact": "John Smith - +1 (555) 123-4567",
+      "insuranceProvider": "BlueCross BlueShield",
+      "insuranceId": "BCB-987654321",
+      "primaryPhysician": "Dr. Michael Chen",
+      "allergies": [],
+      "chronicConditions": ["Asthma"],
+      "avatar": "MS"
+    },
+    {
+      "id": "p3",
+      "name": "Emily Smith",
+      "age": 16,
+      "dateOfBirth": "2009-11-08",
+      "gender": "Female",
+      "bloodType": "A+",
+      "phone": "+1 (555) 123-4567",
+      "email": "",
+      "address": "123 Main Street, New York, NY 10001",
+      "emergencyContact": "John Smith - +1 (555) 123-4567",
+      "insuranceProvider": "BlueCross BlueShield",
+      "insuranceId": "BCB-111222333",
+      "primaryPhysician": "Dr. Lisa Park",
+      "allergies": ["Peanuts"],
+      "chronicConditions": [],
+      "avatar": "ES"
+    }
+  ]
+}

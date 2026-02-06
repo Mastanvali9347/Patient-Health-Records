@@ -1,0 +1,102 @@
+{
+  "reports": [
+    {
+      "id": "rpt1",
+      "patientId": "p1",
+      "type": "Blood Test",
+      "title": "Complete Blood Count (CBC)",
+      "date": "2025-01-15",
+      "orderedBy": "Dr. Sarah Johnson",
+      "facility": "City General Hospital Lab",
+      "status": "completed",
+      "results": [
+        { "test": "White Blood Cells", "value": "7.2", "unit": "K/uL", "range": "4.5-11.0", "status": "normal" },
+        { "test": "Red Blood Cells", "value": "4.8", "unit": "M/uL", "range": "4.5-5.5", "status": "normal" },
+        { "test": "Hemoglobin", "value": "14.2", "unit": "g/dL", "range": "13.5-17.5", "status": "normal" },
+        { "test": "Hematocrit", "value": "42", "unit": "%", "range": "38-50", "status": "normal" },
+        { "test": "Platelets", "value": "245", "unit": "K/uL", "range": "150-400", "status": "normal" }
+      ],
+      "notes": "All values within normal limits."
+    },
+    {
+      "id": "rpt2",
+      "patientId": "p1",
+      "type": "Blood Test",
+      "title": "Lipid Panel",
+      "date": "2025-01-15",
+      "orderedBy": "Dr. Sarah Johnson",
+      "facility": "City General Hospital Lab",
+      "status": "completed",
+      "results": [
+        { "test": "Total Cholesterol", "value": "210", "unit": "mg/dL", "range": "<200", "status": "high" },
+        { "test": "LDL Cholesterol", "value": "135", "unit": "mg/dL", "range": "<100", "status": "high" },
+        { "test": "HDL Cholesterol", "value": "45", "unit": "mg/dL", "range": ">40", "status": "normal" },
+        { "test": "Triglycerides", "value": "150", "unit": "mg/dL", "range": "<150", "status": "normal" }
+      ],
+      "notes": "LDL elevated. Recommend dietary modifications and increased exercise."
+    },
+    {
+      "id": "rpt3",
+      "patientId": "p1",
+      "type": "Blood Test",
+      "title": "HbA1c Test",
+      "date": "2024-11-20",
+      "orderedBy": "Dr. Robert Williams",
+      "facility": "Diabetes Care Center",
+      "status": "completed",
+      "results": [
+        { "test": "HbA1c", "value": "6.8", "unit": "%", "range": "<5.7", "status": "high" }
+      ],
+      "notes": "Indicates pre-diabetic to diabetic range. Continue medication and lifestyle management."
+    },
+    {
+      "id": "rpt4",
+      "patientId": "p1",
+      "type": "Imaging",
+      "title": "Chest X-Ray",
+      "date": "2024-08-10",
+      "orderedBy": "Dr. James Miller",
+      "facility": "City General Hospital Radiology",
+      "status": "completed",
+      "results": [
+        { "test": "Chest X-Ray", "value": "Normal", "unit": "", "range": "", "status": "normal" }
+      ],
+      "notes": "No acute cardiopulmonary abnormality. Heart size normal."
+    },
+    {
+      "id": "rpt5",
+      "patientId": "p2",
+      "type": "Blood Test",
+      "title": "Complete Blood Count (CBC)",
+      "date": "2025-01-10",
+      "orderedBy": "Dr. Michael Chen",
+      "facility": "City General Hospital Lab",
+      "status": "completed",
+      "results": [
+        { "test": "White Blood Cells", "value": "6.5", "unit": "K/uL", "range": "4.5-11.0", "status": "normal" },
+        { "test": "Red Blood Cells", "value": "4.2", "unit": "M/uL", "range": "4.0-5.0", "status": "normal" },
+        { "test": "Hemoglobin", "value": "13.0", "unit": "g/dL", "range": "12.0-16.0", "status": "normal" },
+        { "test": "Hematocrit", "value": "38", "unit": "%", "range": "36-44", "status": "normal" },
+        { "test": "Platelets", "value": "280", "unit": "K/uL", "range": "150-400", "status": "normal" }
+      ],
+      "notes": "All values within normal limits."
+    },
+    {
+      "id": "rpt6",
+      "patientId": "p3",
+      "type": "Allergy Test",
+      "title": "Food Allergy Panel",
+      "date": "2024-09-01",
+      "orderedBy": "Dr. Lisa Park",
+      "facility": "Allergy & Immunology Center",
+      "status": "completed",
+      "results": [
+        { "test": "Peanut IgE", "value": "85.2", "unit": "kU/L", "range": "<0.35", "status": "high" },
+        { "test": "Tree Nut IgE", "value": "0.12", "unit": "kU/L", "range": "<0.35", "status": "normal" },
+        { "test": "Milk IgE", "value": "0.08", "unit": "kU/L", "range": "<0.35", "status": "normal" },
+        { "test": "Egg IgE", "value": "0.05", "unit": "kU/L", "range": "<0.35", "status": "normal" }
+      ],
+      "notes": "Confirmed severe peanut allergy. Epinephrine auto-injector prescribed."
+    }
+  ]
+}
